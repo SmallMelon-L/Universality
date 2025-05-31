@@ -14,6 +14,10 @@ We study three representative architectures:
 - Mamba (State Space Model)
 - RWKV (Linear Attention)
 
+## Acknowledgements
+
+The Sparse Autoencoders (SAEs) used in this work were trained using the [Language-Model-SAEs](https://github.com/OpenMOSS/Language-Model-SAEs) framework developed by the OpenMOSS team.
+
 ## Installation
 Clone the repository
 ```bash
