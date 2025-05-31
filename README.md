@@ -5,7 +5,7 @@ This repository contains the official implementation for the ICLR 2025 paper: [T
 ## Overview
 
 This project investigates the mechanistic similarity across different language model architectures through:
-- Feature-level analysis
+- Feature-level analysis (using [Language-Model-SAEs](https://github.com/OpenMOSS/Language-Model-SAEs) for training SAEs)
 - Neuron-level analysis
 - Circuit-level analysis (focusing on induction circuits)
 
@@ -16,7 +16,9 @@ We study three representative architectures:
 
 ## Acknowledgements
 
-The Sparse Autoencoders (SAEs) used in this work were trained using the [Language-Model-SAEs](https://github.com/OpenMOSS/Language-Model-SAEs) framework developed by the OpenMOSS team.
+This work builds upon:
+- [TransformerLens](https://github.com/TransformerLensOrg/TransformerLens): A library for mechanistic interpretability of GPT-style language models
+- [MambaLens](https://github.com/Phylliida/MambaLens): Mamba support for transformer lens
 
 ## Installation
 Clone the repository
